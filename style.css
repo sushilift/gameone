@@ -1,0 +1,433 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", serif;
+}
+:root{
+--primarycolor: #FA9021;
+}
+body{
+    background-image: url(/assests/Vector.png);
+    background-color: black;
+    color: white;
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; 
+    cursor: none;
+        overflow-x: hidden;
+}
+.navmenu{
+    padding: 40px 32px 40px 32px;
+}
+.navmenu button{
+    border: none;
+    background: #FA9021;
+    padding: 14px;
+    font-size: 20px;
+    color: white;
+    border-radius: 6px;
+
+}
+.navmenu ul{
+margin-right: 32px;
+
+}
+.navul{
+    display: inline;
+    font-size: 20px;
+    padding: 0 20px;
+}
+.navul li{
+    display: inline;
+    font-size: 20px;
+    padding: 0 20px;
+}
+nav{
+    display: flex
+    ;
+    align-items: center;
+
+        flex-direction: row;
+        justify-content: space-between;
+}
+.herosection{
+    padding: 14px 32px 120px 32px;
+    display: flex;
+    
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+
+}
+.herosection h4{
+    color: #E87D0E;
+    font-weight: bold;
+    font-size: 20px;
+}
+.herosection button{
+    border: none;
+    background: linear-gradient(to right, #FA8305, #FB9E3C);
+text-transform: capitalize;
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    border-radius: 40px;
+}
+.herosection p{
+    font-size: 16px;
+    padding: 45px 0px;
+}
+.herosection h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.sidebarmenu{
+    display: flex;
+    margin-top: -129px;
+        flex-direction: column;
+        align-items: flex-start;
+}
+.sidebarmenu img{
+    padding: 30px 0px;
+}
+.herobody{
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 100px;
+}
+.logo img{
+    padding-left: 132px;
+}
+.camotext{
+    padding: 0px 232px;
+    width: 100%;
+}
+.block1{
+    width: 553px;
+    background-color: yellow;
+    background-image: url(/assests/Rectangle\ 9.png);
+    height: 331px;
+    position: relative;
+    margin-right: 40px;
+}
+.block2{
+    width: 553px;
+    background-color: yellow;
+    background-image: url(/assests/rainbow.png);
+    height: 331px;
+    position: relative;
+    margin-right: 40px;
+}
+.img2{
+    position: absolute;
+    width: 100%;
+    top: -125px;
+    left: -6px;
+    right: 50px;
+}
+.img1{
+    position: absolute;
+    top: -90px;
+    right: -53px;
+    width: 76%;
+}
+.block1 h4{
+    font-family: "Michroma", serif;
+    position: absolute;
+    bottom: 20px;
+    font-size: 24px;
+    left: 23px;
+    font-weight: bold;
+    z-index: 10;
+}
+.secondsection{
+    justify-content: space-evenly;
+    background-color: black;
+    display: flex;
+    padding: 45px 0px 145px 0px;
+}
+.epic1{
+    position: absolute;
+    top: 100px;
+}
+.epic2{
+    position: absolute;
+    right: 0px;
+}
+.block3{
+    width: 50px;
+    overflow: auto;
+    background-color: yellow;
+    background-image: url(/assests/rainbow.png);
+    height: 331px;
+    position: relative;
+    box-sizing: content-box;
+    margin-right: 40px;
+}
+.thirdsection{
+    background: black;
+    padding: 40px 132px;
+}
+.text{
+    display: flex
+    ;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+}
+.text button{
+    border: none;
+    background: #FA9021;
+    padding: 6px 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 6px;
+}
+.trend{
+    height: 277px;
+    width: 251px;
+    border: none;
+    border-radius: 20px;
+}
+.trendinggames{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+}
+.trend1{
+    background-image: url(/assests/Rectangle\ 23.png);
+}
+.trend2{
+    background-image: url(/assests/Rectangle\ 24.png);
+}
+.trend3{
+    background-image: url(/assests/Rectangle\ 25.png);
+}
+.trend4{
+    background-image: url(/assests/Rectangle\ 26.png);
+}
+.parenttrend{
+    display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+color: var(--primarycolor);    
+}
+.followers{
+    padding-top: 23px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.followers span{
+    margin-left: 10px;
+}
+.rightcontent h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+.p1{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 45px 0px;
+}
+.p2{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 0px 0px 40px 0px;
+}
+.contentbtn{
+    border: none;
+    background: #FA9021;
+    padding: 6px 20px;
+    font-size: 20px;
+    display: inline;
+    color: white;
+    border-radius: 6px;
+}
+.fourthsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 132px;
+    background: black;
+}
+.rightcontent{
+    display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: flex-start;
+        padding-left: 116px;
+        padding-right: 116px;
+}
+.fifthsection{
+    
+        padding: 80px 132px;
+        background: black;
+    
+}
+.breadcrumbs{
+    text-align: center;
+    word-spacing: 10px;
+    text-align: center;
+}
+.services{
+    color: var(--primarycolor);
+}
+.innertext{
+    text-align: center;
+}
+.innertext h2{
+    padding-top: 24px;
+    font-size: 33px;
+    padding-bottom: 21px;
+}
+.vidclips{
+    padding-top: 116px;
+    display: flex
+;
+    flex-direction: row;
+    align-items: center;
+}
+.vidclips p{
+    font-size: 14px;
+    padding: 20px 0px;
+}
+.vidclips h4{
+    font-size: 30px;
+}
+
+.vidclips li{
+    display: block;
+    font-size: 14px;
+    display: flex;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.vidclips ul{
+    background: url("/assets/tick.png") no-repeat left center;
+    background-size: 16px 16px;
+}
+.rightvidcontent{
+    padding-left: 83px;
+}
+.vidclips span{
+    padding-left: 7px;
+}
+.sixthsection{
+    padding: 80px 140px 0px 140px;
+}
+.sixthsection h4{
+    text-align: center;
+    font-size: 30px;
+}
+.sixthsection p{
+
+        text-align: center;
+        font-size: 14px;
+        padding-top: 15px;
+}
+.imagesofsixth{
+    padding-top: 100px;
+}
+.seventhsection{
+
+    padding: 0px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+            
+}
+.belowlogo{
+    
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+    .footer{
+        display: flex
+        ;
+        padding: 100px 32px;
+        margin-top: 40px;
+        align-items: center;
+        background-color: rgba(10, 10, 10, 0.6);
+
+        justify-content: space-between;
+    
+    }
+    .aboutus ul, li{
+display: block;
+list-style-position: outside;
+    }
+.aboutus p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.aboutus ul{
+    margin-top: 15px;
+}
+.aboutus li{
+    font-size: 15px;
+    padding: 7px 0px;
+}
+.contus{
+    font-size: 17px;
+    font-weight: bold;
+}
+.address{
+    padding: 23px 0px;
+}
+.lowerfooter{
+    padding: 40px 32px;
+    background-color: rgba(10, 10, 10, 0.6);}
+.copy{
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid white;
+}
+.contactus{
+    margin-bottom: 17px;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-top.show {
+    display: block;
+    opacity: 1;
+}
+/* Hide the default cursor */
+
+
+/* Custom Nami cursor */
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 50px;  /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-image: url('/assests/luffy_head-removebg-preview.png');  /* Nami's image */
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+    z-index: 9999;
+}
